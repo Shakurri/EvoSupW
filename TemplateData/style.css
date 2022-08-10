@@ -16,3 +16,29 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+@font-face {
+  font-family: "marumonica";
+  src: url(../MaruMonica.ttf);
+}
+
+body {
+  background-color: #292929;
+  width: 100vw;
+  height: 100vh;
+  font-family: "marumonica";
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 20px;
+  color: #afafaf;
+}
+
+a {
+  color: #b9b9b9;
+}
